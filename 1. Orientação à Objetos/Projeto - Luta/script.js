@@ -1,0 +1,1 @@
+// 1 person ataca o outro. utilizando orientação a objetos.
