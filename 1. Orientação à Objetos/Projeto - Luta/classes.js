@@ -90,7 +90,7 @@ class Stage {
 
     doAttack(attacking, attacked) {
         if (attacking.life <= 0 || attacked.life <= 0) {
-            this.log.addMessage('Fim');
+            this.log.addMessage('End Game');
             return;
         }
 
@@ -103,9 +103,9 @@ class Stage {
 
         if (actualAttack > actualDefense) {
             attacked.life -= actualAttack;
-            this.log.addMessage(`${attacking.name} causou  ${actualAttack}dano`);
+            this.log.addMessage(`${attacking.name} caused  ${actualAttack} demage`);
         } else {
-            this.log.addMessage(`${attacked.name} defendeu`);
+            this.log.addMessage(`${attacked.name} defended`);
         }
 
         this.update();
