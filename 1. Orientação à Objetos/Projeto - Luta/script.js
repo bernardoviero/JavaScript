@@ -1,6 +1,7 @@
+let log = new Log(document.querySelector('.log'));
 let char = new Sorcerer('Bernardo');
 // let charKnight = new Knight('Bernardo');
-let monster = new littleMonster('Crepper');
+let monster = new bigMonster('Teste');
 // let bigMonster = new littleMonster('Herobrine');
 
 const stage = new Stage(
@@ -8,6 +9,7 @@ const stage = new Stage(
     monster,
     document.querySelector('#char'),
     document.querySelector('#monster'),
+    log,
 )
 
 stage.start();
