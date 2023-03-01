@@ -103,7 +103,7 @@ class Stage {
 
         if (actualAttack > actualDefense) {
             attacked.life -= actualAttack;
-            this.log.addMessage(`${attacking.name} caused  ${actualAttack} demage`);
+            this.log.addMessage(`${attacking.name} caused  ${actualAttack.toFixed(2)} demage`);
         } else {
             this.log.addMessage(`${attacked.name} defended`);
         }
