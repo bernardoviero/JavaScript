@@ -1,0 +1,8 @@
+DOM -> Document Object Model
+
+# Todo elemento da página; Inclusive a estrutura da página.
+
+Apartir destes elementos que poderemos fazer a manipulação desta DOM;
+Editar, excluir e executar comandos.
+
+Virtual Dom -> Memória Cache;
